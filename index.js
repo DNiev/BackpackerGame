@@ -42,14 +42,14 @@ console.log(":::::::::::::::::'   .::::::::::::  ::::::::::::::::       :::::::"
 console.log(":::::::::::::::::. .::::::::::::::::::::::::::::::::::::.'::::::::".blue);
 console.log(":::::::::::::::::' :::::::::::::::::::::::::::::::::::::::::::::::".blue);
 console.log("::::::::::::::::::.:::::::::::::::::::::::::::::::::::::::::::::::".blue);
-console.log("    █░█░█ █▀▀ █░░ █▀▀ █▀█ █▀▄▀█ █▀▀   ▀█▀ █▀█".rainbow);
-console.log("    ▀▄▀▄▀ ██▄ █▄▄ █▄▄ █▄█ █░▀░█ ██▄   ░█░ █▄█ ".rainbow);
-console.log("▀█▀ █░█ █▀▀   █▄▄ ▄▀█ █▀▀ █▄▀ █▀█ ▄▀█ █▀▀ █▄▀ █▀▀ █▀█ ".rainbow);
-console.log("░█░ █▀█ ██▄   █▄█ █▀█ █▄▄ █░█ █▀▀ █▀█ █▄▄ █░█ ██▄ █▀▄".rainbow);
-console.log("                █▀▀ ▄▀█ █▀▄▀█ █▀▀".rainbow);
-console.log("                █▄█ █▀█ █░▀░█ ██▄-".rainbow);
+console.log("             █░█░█ █▀▀ █░░ █▀▀ █▀█ █▀▄▀█ █▀▀   ▀█▀ █▀█".rainbow);
+console.log("             ▀▄▀▄▀ ██▄ █▄▄ █▄▄ █▄█ █░▀░█ ██▄   ░█░ █▄█ ".rainbow);
+console.log("        ▀█▀ █░█ █▀▀   █▄▄ ▄▀█ █▀▀ █▄▀ █▀█ ▄▀█ █▀▀ █▄▀ █▀▀ █▀█ ".rainbow);
+console.log("        ░█░ █▀█ ██▄   █▄█ █▀█ █▄▄ █░█ █▀▀ █▀█ █▄▄ █░█ ██▄ █▀▄".rainbow);
+console.log("                         █▀▀ ▄▀█ █▀▄▀█ █▀▀".rainbow);
+console.log("                         █▄█ █▀█ █░▀░█ ██▄-".rainbow);
 console.log("-----------------------------------------------------");
-console.log("-----------------------------------------------------");
+console.log("--------This game is best enjoyed with a large terminal-----------");
 console.log("                                                     ");
 console.log("Which continent would you like to visit?");
 let continent = prompt.question("Africa, Antarctica, Asia, Australia, Europe, North America, or South America?\n");
@@ -130,31 +130,31 @@ switch(continent) {
             break;
             case "find shelter":
                 console.log("Good choice! It is freezing outside! Let's get indoors. You find your way to your bunk in the submarine-like quarters at the research facility, and tuck yourself in for a nice warm night. The next morning after breakfast, you step outside and are greeted by the only wildlife for what appears to be miles. A couple of penguins.");
-                console.log("            _____                                      _____                     ".red);
-                console.log("          ,888888b.                                  ,888888b.                   ".red);
-                console.log("        .d888888888b                               .d888888888b                  ".red);
-                console.log("    _..-'.`*'_,88888b                          _..-'.`*'_,88888b                 ".red);
-                console.log("  ,'..-..`'ad88888888b.                      ,'..-..`'ad88888888b.               ".red);
-                console.log("         ``-. `*Y888888b.                           ``-. `*Y888888b.             ".red);
-                console.log("             \   `Y888888b.                             \   `Y888888b.           ".red);
-                console.log("             :     Y8888888b.                           :     Y8888888b.         ".red);
-                console.log("             :      Y88888888b.                         :      Y88888888b.       ".red);
-                console.log("             |    _,8ad88888888.                        |    _,8ad88888888.      ".red);
-                console.log("             : .d88888888888888b.                       : .d88888888888888b.     ".red);
-                console.log("             \d888888888888888888                       \d888888888888888888     ".red);
-                console.log("             8888;'''`88888888888                       8888;ss'`88888888888     ".red);
-                console.log("             888'     Y8888888888                       888'N''N Y8888888888     ".red);
-                console.log("             `Y8      :8888888888                       `Y8 N  ' :8888888888     ".red);
-                console.log("              |`      '8888888888                        |` N    '8888888888     ".red);
-                console.log("              |        8888888888                        |  N     8888888888     ".red);
-                console.log("              |        8888888888                        |  N     8888888888     ".red);
-                console.log("              |        8888888888                        |  N     8888888888     ".red);
-                console.log("              |       ,888888888P                        |  N    ,888888888P     ".red);
-                console.log("              :       ;888888888'                        :  N    ;888888888'     ".red);
-                console.log("               \      d88888888'                         :  N    ;888888888'     ".red);
-                console.log("              _.>,    888888P'                            \ N    d88888888'      ".red);
-                console.log("            <,--''`.._>8888(                             _.>N    888888P'        ".red);
-                console.log("             `>__...--' `''` SSt                       <,--'N`.._>8888(          ".red);
+                console.log("            _____                                      _____                     ".inverse);
+                console.log("          ,888888b.                                  ,888888b.                   ".inverse);
+                console.log("        .d888888888b                               .d888888888b                  ".inverse);
+                console.log("    _..-'.`*'_,88888b                          _..-'.`*'_,88888b                 ".inverse);
+                console.log("  ,'..-..`'ad88888888b.                      ,'..-..`'ad88888888b.               ".inverse);
+                console.log("         ``-. `*Y888888b.                           ``-. `*Y888888b.             ".inverse);
+                console.log("             ;   `Y888888b.                             ;   `Y888888b.           ".inverse);
+                console.log("             :     Y8888888b.                           :     Y8888888b.         ".inverse);
+                console.log("             :      Y88888888b.                         :      Y88888888b.       ".inverse);
+                console.log("             |    _,8ad88888888.                        |    _,8ad88888888.      ".inverse);
+                console.log("             : .d88888888888888b.                       : .d88888888888888b.     ".inverse);
+                console.log("             ;d888888888888888888                       ;d888888888888888888     ".inverse);
+                console.log("             8888;'''`88888888888                       8888;ss'`88888888888     ".inverse);
+                console.log("             888'     Y8888888888                       888'N''N Y8888888888     ".inverse);
+                console.log("             `Y8      :8888888888                       `Y8 N  ' :8888888888     ".inverse);
+                console.log("              |`      '8888888888                        |` N    '8888888888     ".inverse);
+                console.log("              |        8888888888                        |  N     8888888888     ".inverse);
+                console.log("              |        8888888888                        |  N     8888888888     ".inverse);
+                console.log("              |        8888888888                        |  N     8888888888     ".inverse);
+                console.log("              |       ,888888888P                        |  N    ,888888888P     ".inverse);
+                console.log("              :       ;888888888'                        :  N    ;888888888'     ".inverse);
+                console.log("               (      d88888888'                         :  N    ;888888888'     ".inverse);
+                console.log("              _.>,    888888P'                            ( N    d88888888'      ".inverse);
+                console.log("            <,--''`.._>8888(                             _.>N    888888P'        ".inverse);
+                console.log("             `>__...--' `''` SSt                       <,--'N`.._>8888(          ".inverse);
                 console.log("As You look around and see nothing else around you, the penguins look up at you with a puzzled look. As if to say 'What are you doing here?' And then you wonder, 'What am I doing here?' You realize that this was a stupid idea. Backpacking in Antarctica. You probably could have picked a better place to backpack. Tucking your tail between your legs you head back to your quarters and start to plan your next destination. Or maybe you'll go home. But at least you didn't get mauled by a seal or something stupid.");
             break;
             default:
@@ -164,7 +164,7 @@ switch(continent) {
         }
     break;
     case "asia":
-        console.log( "Covid-19 travel restrictions are preventing us from being able to travel to Asia at the moment." );
+        console.log( "The majority of countries in Asia are shut down due to a second wave of Covid-19. Maybe we should try visiting somewhere else for now. I hear Africa is nice.");
     break;
     case "australia": 
         console.log( "Australia and New Zealand have shut down their borders due to COVID-19 travel restrictions." );
@@ -173,7 +173,7 @@ switch(continent) {
         console.log( "Europe is currently closed due to COVID-19 travel restrictions!\n");
     break;
     case "north america": 
-        console.log( "Aw Crap! We're on lockdown again! The super-spreader event at the Rose Garden has ifected all of the heads of government and the US has issued a mandatory lockdown order. No backapacking for us this summer. This sucks. Maybe you should just take a coding bootcamp or something...\n");
+        console.log( "Aw Crap! We're on lockdown again! The super-spreader event at the Rose Garden has infected all of the heads of government and the US has issued a mandatory lockdown order. No backapacking for us this summer. This sucks. Maybe you should just take a coding bootcamp or something...\n");
     break;
     case "south america": 
         console.log( "South America is currently closed due to COVID-19 travel restrictions!");
@@ -181,7 +181,7 @@ switch(continent) {
     default:
         console.log( `Where the hell is that?! I've never heard of ${continent}. Better check your spelling or Google Translate to make sure something didn't get lost in translation.`);
 }
-let playAgain = prompt.question(`Enter [p] to play again. Anything else to quit.\n`);
+let playAgain = prompt.question(`Enter "Keep traveling" to play again. Enter anything else to head home.\n`);
 if (playAgain.toLowerCase() === 'p') {
    runGame();
 } else {
