@@ -167,16 +167,16 @@ switch(continent) {
         console.log( "The majority of countries in Asia are shut down due to a second wave of Covid-19. Maybe we should try visiting somewhere else for now. I hear Africa is nice.");
     break;
     case "australia": 
-        console.log( "Australia and New Zealand have shut down their borders due to COVID-19 travel restrictions." );
+        console.log( "Australia and New Zealand have shut down their borders due to COVID-19 travel restrictions. Antarctica might be one of the only places we can actually visit any more....." );
     break;
     case "europe": 
-        console.log( "Europe is currently closed due to COVID-19 travel restrictions!\n");
+        console.log( "Europe is currently restricting travel at this time. Africa doesn't give a damn about Covid, though. Maybe you should visit there?\n");
     break;
     case "north america": 
         console.log( "Aw Crap! We're on lockdown again! The super-spreader event at the Rose Garden has infected all of the heads of government and the US has issued a mandatory lockdown order. No backapacking for us this summer. This sucks. Maybe you should just take a coding bootcamp or something...\n");
     break;
     case "south america": 
-        console.log( "South America is currently closed due to COVID-19 travel restrictions!");
+        console.log( "South America is currently closed due to COVID-19 travel restrictions, pending the results of our investigation into a new cocktail of hydroxychloroquine and lysol as a vaccine. I'm confident it will work, but for now we should probably visit somewhere else.");
     break;
     default:
         console.log( `Where the hell is that?! I've never heard of ${continent}. Better check your spelling or Google Translate to make sure something didn't get lost in translation.`);
