@@ -182,7 +182,7 @@ switch(continent) {
         console.log( `Where the hell is that?! I've never heard of ${continent}. Better check your spelling or Google Translate to make sure something didn't get lost in translation.`);
 }
 let playAgain = prompt.question(`Enter "Keep traveling" to play again. Enter anything else to head home.\n`);
-if (playAgain.toLowerCase() === 'p') {
+if (playAgain.toLowerCase() === 'keep traveling') {
    runGame();
 } else {
     console.log("  @@@@@@@   @@@@@@  @@@@@@@@@@  @@@@@@@@       @@@@@@  @@@  @@@ @@@@@@@@ @@@@@@@".green);
