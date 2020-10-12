@@ -1,6 +1,23 @@
 const prompt = require('readline-sync');
 const colors = require('colors');
 function runGame (){
+    function dead (){
+        console.log("        ██████████████        ".red);
+        console.log("    ██████          ██████    ".red);
+        console.log("  ████                  ████  ".red);
+        console.log("  ██                      ██  ".red);
+        console.log("████                      ████".red);
+        console.log("██                          ██".red);
+        console.log("██  ████████      ████████  ██".red);
+        console.log("██  ████████      ████████  ██".red);
+        console.log("██  ██████    ██    ██████  ██".red);
+        console.log("██          ██████          ██".red);
+        console.log("████        ██████        ████".red);
+        console.log("  ██████              ██████  ".red);
+        console.log("      ██              ██      ".red);
+        console.log("      ██  ██  ██  ██  ██      ".red);
+        console.log("      ██████████████████      ".red);
+    }
 
 
 console.log("\n")
@@ -82,40 +99,12 @@ switch(continent) {
 
                     case "eat at the hotel":
                         console.log("Good thing the hotel has a complimentary continental breakfast. You decide to indulge in a huge serving of fruits and yogurt in the cafe. Within a few moments, a server walks up and offers you some eggs. You don't know if it was the fruit or the dairy, but within a couple of hours Salmonella sets in and you're on your way to a clinic. It turns out hospital care in Egypt sucks and you die.\nFlies to Egypt. Never Leaves Hotel. Dies From Food Poisoning.\nYou're a Legend🏆\n");
-                        console.log("        ██████████████        ".red);
-                        console.log("    ██████          ██████    ".red);
-                        console.log("  ████                  ████  ".red);
-                        console.log("  ██                      ██  ".red);
-                        console.log("████                      ████".red);
-                        console.log("██                          ██".red);
-                        console.log("██  ████████      ████████  ██".red);
-                        console.log("██  ████████      ████████  ██".red);
-                        console.log("██  ██████    ██    ██████  ██".red);
-                        console.log("██          ██████          ██".red);
-                        console.log("████        ██████        ████".red);
-                        console.log("  ██████              ██████  ".red);
-                        console.log("      ██              ██      ".red);
-                        console.log("      ██  ██  ██  ██  ██      ".red);
-                        console.log("      ██████████████████      ".red);
+                        dead();
                     break;
 
                     default:
-                        console.log(`Luckily the food stall down the street is serving just that! You decide to indulge in a huge serving of ${questionBreakfast}, not realizing how undercooked it is. Within a couple of hours Salmonella sets in and you're on your way to a clinic. It turns out hospital care in Egypt sucks and you die. Maybe you should be sure of what you want to eat next time.....`);
-                        console.log("        ██████████████        ".red);
-                        console.log("    ██████          ██████    ".red);
-                        console.log("  ████                  ████  ".red);
-                        console.log("  ██                      ██  ".red);
-                        console.log("████                      ████".red);
-                        console.log("██                          ██".red);
-                        console.log("██  ████████      ████████  ██".red);
-                        console.log("██  ████████      ████████  ██".red);
-                        console.log("██  ██████    ██    ██████  ██".red);
-                        console.log("██          ██████          ██".red);
-                        console.log("████        ██████        ████".red);
-                        console.log("  ██████              ██████  ".red);
-                        console.log("      ██              ██      ".red);
-                        console.log("      ██  ██  ██  ██  ██      ".red);
-                        console.log("      ██████████████████      ".red);
+                        console.log(`Luckily the food stall down the street is serving just that! You decide to indulge in a huge serving of ${questionBreakfast}, not realizing how undercooked it is. Within a couple of hours Salmonella sets in and you're on your way to a clinic. It turns out hospital care in Egypt sucks and you die. Maybe you should be sure of what you want to eat next time.....\n`);
+                        dead();
                 }    
             break;
 
@@ -133,30 +122,49 @@ switch(continent) {
     case "antarctica": 
         console.log( "You're so adventurous! You've just managed to find your way onto a ship bound for the coldest continent on Earth! Normally travel to Antarctica is extrememly restricted to tourists, but an old scientist friend of yours will be leading a research team there and invited you along. When you arrive you're blasted by a rush of cold, damp air that chills you to the bone. Good thing you have a thick jacket, because you won't last long outdoors in this climate! On your way to your lodging, you notice some of the local wildlife playing near the water. A seal! So cute! Should you walk over and try to pet him or should you just keep going for now and come back later?");
         let questionSeal = prompt.question("Pet the seal or find shelter?\n");
-        questionSeal = questionSeal.toLowerCase
+        questionSeal = questionSeal.toLowerCase();
         switch (questionSeal) { 
-            case "pet the seal": 
-                console.log("Awwww, he's so cute! you approach slowly and reach out invitingly to pet him. The seal seems welcoming, then reaches out and latches onto your hand, pulling you into the icy cold water! You've just tried to pet a leopard seal, one of Antarctica's top predators. He still hasn't let go, and continues to drag you down to a depth of about 150 feet before releasing you. In the icy cold water your body goes into hypothermia and you die. You've sealed your fate.");
-                console.log("        ██████████████        ".red);
-                console.log("    ██████          ██████    ".red);
-                console.log("  ████                  ████  ".red);
-                console.log("  ██                      ██  ".red);
-                console.log("████                      ████".red);
-                console.log("██                          ██".red);
-                console.log("██  ████████      ████████  ██".red);
-                console.log("██  ████████      ████████  ██".red);
-                console.log("██  ██████    ██    ██████  ██".red);
-                console.log("██          ██████          ██".red);
-                console.log("████        ██████        ████".red);
-                console.log("  ██████              ██████  ".red);
-                console.log("      ██              ██      ".red);
-                console.log("      ██  ██  ██  ██  ██      ".red);
-                console.log("      ██████████████████      ".red);
+            case "pet the seal" :
+                console.log("Awwww, he's so cute! you approach slowly and reach out invitingly to pet him. The seal seems welcoming, then reaches out and latches onto your hand, pulling you into the icy cold water! You've just tried to pet a leopard seal, one of Antarctica's top predators. He still hasn't let go, and continues to drag you down to a depth of about 150 feet before releasing you. In the icy cold water your body goes into hypothermia and you die. You've sealed your fate. Pun intended\n");
+                dead();
+            break;
+            case "find shelter":
+                console.log("Good choice! It is freezing outside! Let's get indoors. You find your way to your bunk in the submarine-like quarters at the research facility, and tuck yourself in for a nice warm night. The next morning after breakfast, you step outside and are greeted by the only wildlife for what appears to be miles. A couple of penguins.");
+                console.log("            _____                                      _____                     ".red);
+                console.log("          ,888888b.                                  ,888888b.                   ".red);
+                console.log("        .d888888888b                               .d888888888b                  ".red);
+                console.log("    _..-'.`*'_,88888b                          _..-'.`*'_,88888b                 ".red);
+                console.log("  ,'..-..`'ad88888888b.                      ,'..-..`'ad88888888b.               ".red);
+                console.log("         ``-. `*Y888888b.                           ``-. `*Y888888b.             ".red);
+                console.log("             \   `Y888888b.                             \   `Y888888b.           ".red);
+                console.log("             :     Y8888888b.                           :     Y8888888b.         ".red);
+                console.log("             :      Y88888888b.                         :      Y88888888b.       ".red);
+                console.log("             |    _,8ad88888888.                        |    _,8ad88888888.      ".red);
+                console.log("             : .d88888888888888b.                       : .d88888888888888b.     ".red);
+                console.log("             \d888888888888888888                       \d888888888888888888     ".red);
+                console.log("             8888;'''`88888888888                       8888;ss'`88888888888     ".red);
+                console.log("             888'     Y8888888888                       888'N''N Y8888888888     ".red);
+                console.log("             `Y8      :8888888888                       `Y8 N  ' :8888888888     ".red);
+                console.log("              |`      '8888888888                        |` N    '8888888888     ".red);
+                console.log("              |        8888888888                        |  N     8888888888     ".red);
+                console.log("              |        8888888888                        |  N     8888888888     ".red);
+                console.log("              |        8888888888                        |  N     8888888888     ".red);
+                console.log("              |       ,888888888P                        |  N    ,888888888P     ".red);
+                console.log("              :       ;888888888'                        :  N    ;888888888'     ".red);
+                console.log("               \      d88888888'                         :  N    ;888888888'     ".red);
+                console.log("              _.>,    888888P'                            \ N    d88888888'      ".red);
+                console.log("            <,--''`.._>8888(                             _.>N    888888P'        ".red);
+                console.log("             `>__...--' `''` SSt                       <,--'N`.._>8888(          ".red);
+                console.log("As You look around and see nothing else around you, the penguins look up at you with a puzzled look. As if to say 'What are you doing here?' And then you wonder, 'What am I doing here?' You realize that this was a stupid idea. Backpacking in Antarctica. You probably could have picked a better place to backpack. Tucking your tail between your legs you head back to your quarters and start to plan your next destination. Or maybe you'll go home. But at least you didn't get mauled by a seal or something stupid.");
+            break;
+            default:
+                console.log("The cold is getting to you and your core temperature must be dropping. You are clearly becoming delusional. You sit down to think about what you were trying to do for a moment, and before you know it you've frozen to death. Who in their right mind tries to backpack through Antarctica in the first place?!\n");
+                dead();
             break;
         }
     break;
     case "asia":
-        console.log( "Sweet! Asia it is! Next stop Shanghai!" );
+        console.log( "Covid-19 travel restrictions are preventing us from being able to travel to Asia at the moment." );
     break;
     case "australia": 
         console.log( "Australia and New Zealand have shut down their borders due to COVID-19 travel restrictions." );
@@ -177,11 +185,11 @@ let playAgain = prompt.question(`Enter [p] to play again. Anything else to quit.
 if (playAgain.toLowerCase() === 'p') {
    runGame();
 } else {
-    console.log("  @@@@@@@   @@@@@@  @@@@@@@@@@  @@@@@@@@       @@@@@@  @@@  @@@ @@@@@@@@ @@@@@@@".red);
-    console.log(" !@@       @@!  @@@ @@! @@! @@! @@!           @@!  @@@ @@!  @@@ @@!      @@!  @@@".red);
-    console.log(" !@! @!@!@ @!@!@!@! @!! !!@ @!@ @!!!:!        @!@  !@! @!@  !@! @!!!:!   @!@!!@!".red);
-    console.log(" :!!   !!: !!:  !!! !!:     !!: !!:           !!:  !!!  !: .:!  !!:      !!: :!!".red);
-    console.log("  :: :: :   :   : :  :      :   : :: :::       : :. :     ::    : :: :::  :   : :".red);
+    console.log("  @@@@@@@   @@@@@@  @@@@@@@@@@  @@@@@@@@       @@@@@@  @@@  @@@ @@@@@@@@ @@@@@@@".green);
+    console.log(" !@@       @@!  @@@ @@! @@! @@! @@!           @@!  @@@ @@!  @@@ @@!      @@!  @@@".green);
+    console.log(" !@! @!@!@ @!@!@!@! @!! !!@ @!@ @!!!:!        @!@  !@! @!@  !@! @!!!:!   @!@!!@!".green);
+    console.log(" :!!   !!: !!:  !!! !!:     !!: !!:           !!:  !!!  !: .:!  !!:      !!: :!!".green);
+    console.log("  :: :: :   :   : :  :      :   : :: :::       : :. :     ::    : :: :::  :   : :".green);
 }
 }
 runGame();
